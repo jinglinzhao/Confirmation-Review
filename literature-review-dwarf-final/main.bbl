@@ -1,0 +1,246 @@
+\begin{thebibliography}{10}
+
+\bibitem{NASAExoplanetArchive}
+NASA~Exoplanet Archive.
+\newblock Available at
+  \url{https://exoplanetarchive.ipac.caltech.edu/index.html} (24/08/2017).
+
+\bibitem{Boisse2012}
+{Boisse, I.}, {Bonfils, X.}, and {Santos, N. C.}
+\newblock Soap⋆ - a tool for the fast computation of photometry and radial
+  velocity induced by stellar spots.
+\newblock {\em A\&A}, 545:A109, 2012.
+
+\bibitem{Chebyshev1859}
+P.L. Chebyshev.
+\newblock {\em Sur le développement des fonctions {\`a} une seule variable}.
+\newblock Bull. Physicomath. Acad. St. Pétersb., 1859.
+
+\bibitem{Donati1997}
+J.-F. {Donati}, M.~{Semel}, B.~D. {Carter}, D.~E. {Rees}, and A.~{Collier
+  Cameron}.
+\newblock {Spectropolarimetric observations of active stars}.
+\newblock {\em mnras}, 291:658, November 1997.
+
+\bibitem{Dumusque2016}
+X.~{Dumusque}.
+\newblock {Radial velocity fitting challenge. I. Simulating the data set
+  including realistic stellar radial-velocity signals}.
+\newblock {\em aap}, 593:A5, August 2016.
+
+\bibitem{Dumusque2014}
+X.~Dumusque, I.~Boisse, and N.~C. Santos.
+\newblock Soap 2.0: A tool to estimate the photometric and radial velocity
+  variations induced by stellar spots and plages.
+\newblock {\em The Astrophysical Journal}, 796(2):132, 2014.
+
+\bibitem{Dumusque2012Natur}
+X.~{Dumusque}, F.~{Pepe}, C.~{Lovis}, D.~{S{\'e}gransan}, J.~{Sahlmann},
+  W.~{Benz}, F.~{Bouchy}, M.~{Mayor}, D.~{Queloz}, N.~{Santos}, and S.~{Udry}.
+\newblock {An Earth-mass planet orbiting {$\alpha$} Centauri B}.
+\newblock {\em nat}, 491:207--211, November 2012.
+
+\bibitem{Hackman2016}
+{Hackman, T.}, {Lehtinen, J.}, {Rosén, L.}, {Kochukhov, O.}, and {Käpylä, M.
+  J.}
+\newblock Zeeman-doppler imaging of active young solar-type stars⋆.
+\newblock {\em A\&A}, 587:A28, 2016.
+
+\bibitem{Hatzes}
+A.~P. {Hatzes}.
+\newblock {The Radial Velocity Detection of Earth-mass Planets in the Presence
+  of Activity Noise: The Case of {$\alpha$} Centauri Bb}.
+\newblock {\em apj}, 770:133, June 2013.
+
+\bibitem{Hatzes2010}
+{Hatzes, A. P.}, {Dvorak, R.}, {Wuchterl, G.}, {Guterman, P.}, {Hartmann, M.},
+  {Fridlund, M.}, {Gandolfi, D.}, {Guenther, E.}, and {Pätzold, M.}
+\newblock An investigation into the radial velocity variations of corot-7*.
+\newblock {\em A\&A}, 520:A93, 2010.
+
+\bibitem{hermite1864nouveau}
+C.~Hermite.
+\newblock {\em Sur un nouveau d{\'e}veloppement en s{\'e}rie des fonctions}.
+\newblock Gauthier-Villars, 1864.
+
+\bibitem{Kochukhov2010}
+{Kochukhov, O.}, {Makaganiuk, V.}, and {Piskunov, N.}
+\newblock Least-squares deconvolution of the stellar intensity and polarization
+  spectra.
+\newblock {\em A\&A}, 524:A5, 2010.
+
+\bibitem{Lagrange2011}
+A.-M. {Lagrange}, N.~{Meunier}, M.~{Desort}, and F.~{Malbet}.
+\newblock {Using the Sun to estimate Earth-like planets detection capabilities
+  . III. Impact of spots and plages on astrometric detection}.
+\newblock {\em aap}, 528:L9, April 2011.
+
+\bibitem{LaPlace1820}
+Pierre~Simon LaPlace.
+\newblock {\em Théorie analytique des probabilités}.
+\newblock Courcier, 1820.
+
+\bibitem{Makarov2009}
+V.~V. {Makarov}, C.~A. {Beichman}, J.~H. {Catanzarite}, D.~A. {Fischer},
+  J.~{Lebreton}, F.~{Malbet}, and M.~{Shao}.
+\newblock {Starspot Jitter in Photometry, Astrometry, and Radial Velocity
+  Measurements}.
+\newblock {\em apjl}, 707:L73--L76, December 2009.
+
+\bibitem{Mayor2014Natur}
+M.~{Mayor}, C.~{Lovis}, and N.~C. {Santos}.
+\newblock {Doppler spectroscopy as a path to the detection of Earth-like
+  planets}.
+\newblock {\em nat}, 513:328--335, September 2014.
+
+\bibitem{Mayor2003Msngr}
+M.~{Mayor}, F.~{Pepe}, D.~{Queloz}, F.~{Bouchy}, G.~{Rupprecht}, G.~{Lo Curto},
+  G.~{Avila}, W.~{Benz}, J.-L. {Bertaux}, X.~{Bonfils}, T.~{Dall}, H.~{Dekker},
+  B.~{Delabre}, W.~{Eckert}, M.~{Fleury}, A.~{Gilliotte}, D.~{Gojak}, J.~C.
+  {Guzman}, D.~{Kohler}, J.-L. {Lizon}, A.~{Longinotti}, C.~{Lovis},
+  D.~{Megevand}, L.~{Pasquini}, J.~{Reyes}, J.-P. {Sivan}, D.~{Sosnowska},
+  R.~{Soto}, S.~{Udry}, A.~{van Kesteren}, L.~{Weber}, and U.~{Weilenmann}.
+\newblock {Setting New Standards with HARPS}.
+\newblock {\em The Messenger}, 114:20--24, December 2003.
+
+\bibitem{Mayor1995}
+{{Mayor}, M. and {Queloz}, D.}
+\newblock A jupiter-mass companion to a solar-type star.
+\newblock 378:355--359, nov 1995.
+
+\bibitem{Perryman2011book}
+M.~{Perryman}.
+\newblock {\em {The Exoplanet Handbook}}.
+\newblock May 2011.
+
+\bibitem{Queloz2009}
+{Queloz, D.}, {Bouchy, F.}, {Moutou, C.}, {Hatzes, A.}, {Hébrard, G.},
+  {Alonso, R.}, {Auvergne, M.}, {Baglin, A.}, {Barbieri, M.}, {Barge, P.},
+  {Benz, W.}, {Bordé, P.}, {Deeg, H. J.}, {Deleuil, M.}, {Dvorak, R.},
+  {Erikson, A.}, {Ferraz Mello, S.}, {Fridlund, M.}, {Gandolfi, D.}, {Gillon,
+  M.}, {Guenther, E.}, {Guillot, T.}, {Jorda, L.}, {Hartmann, M.}, {Lammer,
+  H.}, {Léger, A.}, {Llebaria, A.}, {Lovis, C.}, {Magain, P.}, {Mayor, M.},
+  {Mazeh, T.}, {Ollivier, M.}, {Pätzold, M.}, {Pepe, F.}, {Rauer, H.}, {Rouan,
+  D.}, {Schneider, J.}, {Segransan, D.}, {Udry, S.}, and {Wuchterl, G.}
+\newblock The corot-7 planetary system: two orbiting super-earths.
+\newblock {\em A\&A}, 506(1):303--319, 2009.
+
+\bibitem{Quirrenbach2014SPIE}
+A.~{Quirrenbach}, P.~J. {Amado}, J.~A. {Caballero}, R.~{Mundt}, A.~{Reiners},
+  I.~{Ribas}, W.~{Seifert}, M.~{Abril}, J.~{Aceituno}, F.~J. {Alonso-Floriano},
+  M.~{Ammler-von Eiff}, R.~{Antona Jim{\'e}nez}, H.~{Anwand-Heerwart},
+  M.~{Azzaro}, F.~{Bauer}, D.~{Barrado}, S.~{Becerril}, V.~J.~S. {B{\'e}jar},
+  D.~{Ben{\'{\i}}tez}, Z.~M. {Berdi{\~n}as}, M.~C. {C{\'a}rdenas}, E.~{Casal},
+  A.~{Claret}, J.~{Colom{\'e}}, M.~{Cort{\'e}s-Contreras}, S.~{Czesla},
+  M.~{Doellinger}, S.~{Dreizler}, C.~{Feiz}, M.~{Fern{\'a}ndez},
+  D.~{Galad{\'{\i}}}, M.~C. {G{\'a}lvez-Ortiz}, A.~{Garc{\'{\i}}a-Piquer},
+  M.~L. {Garc{\'{\i}}a-Vargas}, R.~{Garrido}, L.~{Gesa}, V.~{G{\'o}mez Galera},
+  E.~{Gonz{\'a}lez {\'A}lvarez}, J.~I. {Gonz{\'a}lez Hern{\'a}ndez},
+  U.~{Gr{\"o}zinger}, J.~{Gu{\`a}rdia}, E.~W. {Guenther}, E.~{de Guindos},
+  J.~{Guti{\'e}rrez-Soto}, H.-J. {Hagen}, A.~P. {Hatzes}, P.~H. {Hauschildt},
+  J.~{Helmling}, T.~{Henning}, D.~{Hermann}, L.~{Hern{\'a}ndez Casta{\~n}o},
+  E.~{Herrero}, D.~{Hidalgo}, G.~{Holgado}, A.~{Huber}, K.~F. {Huber},
+  S.~{Jeffers}, V.~{Joergens}, E.~{de Juan}, M.~{Kehr}, R.~{Klein},
+  M.~{K{\"u}rster}, A.~{Lamert}, S.~{Lalitha}, W.~{Laun}, U.~{Lemke},
+  R.~{Lenzen}, M.~{L{\'o}pez del Fresno}, B.~{L{\'o}pez Mart{\'{\i}}},
+  J.~{L{\'o}pez-Santiago}, U.~{Mall}, H.~{Mandel}, E.~L. {Mart{\'{\i}}n},
+  S.~{Mart{\'{\i}}n-Ruiz}, H.~{Mart{\'{\i}}nez-Rodr{\'{\i}}guez}, C.~J.
+  {Marvin}, R.~J. {Mathar}, E.~{Mirabet}, D.~{Montes}, R.~{Morales Mu{\~n}oz},
+  A.~{Moya}, V.~{Naranjo}, A.~{Ofir}, R.~{Oreiro}, E.~{Pall{\'e}},
+  J.~{Panduro}, V.-M. {Passegger}, A.~{P{\'e}rez-Calpena}, D.~{P{\'e}rez
+  Medialdea}, M.~{Perger}, M.~{Pluto}, A.~{Ram{\'o}n}, R.~{Rebolo},
+  P.~{Redondo}, S.~{Reffert}, S.~{Reinhardt}, P.~{Rhode}, H.-W. {Rix},
+  F.~{Rodler}, E.~{Rodr{\'{\i}}guez}, C.~{Rodr{\'{\i}}guez-L{\'o}pez},
+  E.~{Rodr{\'{\i}}guez-P{\'e}rez}, R.-R. {Rohloff}, A.~{Rosich},
+  E.~{S{\'a}nchez-Blanco}, M.~A. {S{\'a}nchez Carrasco}, J.~{Sanz-Forcada},
+  L.~F. {Sarmiento}, S.~{Sch{\"a}fer}, J.~{Schiller}, C.~{Schmidt}, J.~H.~M.~M.
+  {Schmitt}, E.~{Solano}, O.~{Stahl}, C.~{Storz}, J.~{St{\"u}rmer}, J.~C.
+  {Su{\'a}rez}, R.~G. {Ulbrich}, G.~{Veredas}, K.~{Wagner}, J.~{Winkler}, M.~R.
+  {Zapatero Osorio}, M.~{Zechmeister}, F.~J. {Abell{\'a}n de Paco},
+  G.~{Anglada-Escud{\'e}}, C.~{del Burgo}, A.~{Klutsch}, J.~L. {Lizon},
+  M.~{L{\'o}pez-Morales}, J.~C. {Morales}, M.~A.~C. {Perryman}, S.~M.
+  {Tulloch}, and W.~{Xu}.
+\newblock {CARMENES instrument overview}.
+\newblock In {\em Ground-based and Airborne Instrumentation for Astronomy V},
+  volume 9147 of {\em procspie}, page 91471F, July 2014.
+
+\bibitem{Rajpaul2016}
+V.~{Rajpaul}, S.~{Aigrain}, and S.~{Roberts}.
+\newblock {Ghost in the time series: no planet for Alpha Cen B}.
+\newblock {\em mnras}, 456:L6--L10, February 2016.
+
+\bibitem{Rauer2014}
+H.~{Rauer}, C.~{Catala}, C.~{Aerts}, T.~{Appourchaux}, W.~{Benz},
+  A.~{Brandeker}, J.~{Christensen-Dalsgaard}, M.~{Deleuil}, L.~{Gizon}, M.-J.
+  {Goupil}, M.~{G{\"u}del}, E.~{Janot-Pacheco}, M.~{Mas-Hesse}, I.~{Pagano},
+  G.~{Piotto}, D.~{Pollacco}, {\.C}.~{Santos}, A.~{Smith}, J.-C. {Su{\'a}rez},
+  R.~{Szab{\'o}}, S.~{Udry}, V.~{Adibekyan}, Y.~{Alibert}, J.-M. {Almenara},
+  P.~{Amaro-Seoane}, M.~A.-v. {Eiff}, M.~{Asplund}, E.~{Antonello},
+  S.~{Barnes}, F.~{Baudin}, K.~{Belkacem}, M.~{Bergemann}, G.~{Bihain}, A.~C.
+  {Birch}, X.~{Bonfils}, I.~{Boisse}, A.~S. {Bonomo}, F.~{Borsa}, I.~M.
+  {Brand{\~a}o}, E.~{Brocato}, S.~{Brun}, M.~{Burleigh}, R.~{Burston},
+  J.~{Cabrera}, S.~{Cassisi}, W.~{Chaplin}, S.~{Charpinet}, C.~{Chiappini},
+  R.~P. {Church}, S.~{Csizmadia}, M.~{Cunha}, M.~{Damasso}, M.~B. {Davies},
+  H.~J. {Deeg}, R.~F. {D{\'{\i}}az}, S.~{Dreizler}, C.~{Dreyer},
+  P.~{Eggenberger}, D.~{Ehrenreich}, P.~{Eigm{\"u}ller}, A.~{Erikson},
+  R.~{Farmer}, S.~{Feltzing}, F.~{de Oliveira Fialho}, P.~{Figueira},
+  T.~{Forveille}, M.~{Fridlund}, R.~A. {Garc{\'{\i}}a}, P.~{Giommi},
+  G.~{Giuffrida}, M.~{Godolt}, J.~{Gomes da Silva}, T.~{Granzer}, J.~L.
+  {Grenfell}, A.~{Grotsch-Noels}, E.~{G{\"u}nther}, C.~A. {Haswell}, A.~P.
+  {Hatzes}, G.~{H{\'e}brard}, S.~{Hekker}, R.~{Helled}, K.~{Heng}, J.~M.
+  {Jenkins}, A.~{Johansen}, M.~L. {Khodachenko}, K.~G. {Kislyakova}, W.~{Kley},
+  U.~{Kolb}, N.~{Krivova}, F.~{Kupka}, H.~{Lammer}, A.~F. {Lanza},
+  Y.~{Lebreton}, D.~{Magrin}, P.~{Marcos-Arenal}, P.~M. {Marrese}, J.~P.
+  {Marques}, J.~{Martins}, S.~{Mathis}, S.~{Mathur}, S.~{Messina}, A.~{Miglio},
+  J.~{Montalban}, M.~{Montalto}, M.~J.~P.~F.~G. {Monteiro}, H.~{Moradi},
+  E.~{Moravveji}, C.~{Mordasini}, T.~{Morel}, A.~{Mortier}, V.~{Nascimbeni},
+  R.~P. {Nelson}, M.~B. {Nielsen}, L.~{Noack}, A.~J. {Norton}, A.~{Ofir},
+  M.~{Oshagh}, R.-M. {Ouazzani}, P.~{P{\'a}pics}, V.~C. {Parro}, P.~{Petit},
+  B.~{Plez}, E.~{Poretti}, A.~{Quirrenbach}, R.~{Ragazzoni}, G.~{Raimondo},
+  M.~{Rainer}, D.~R. {Reese}, R.~{Redmer}, S.~{Reffert}, B.~{Rojas-Ayala},
+  I.~W. {Roxburgh}, S.~{Salmon}, A.~{Santerne}, J.~{Schneider}, J.~{Schou},
+  S.~{Schuh}, H.~{Schunker}, A.~{Silva-Valio}, R.~{Silvotti}, I.~{Skillen},
+  I.~{Snellen}, F.~{Sohl}, S.~G. {Sousa}, A.~{Sozzetti}, D.~{Stello}, K.~G.
+  {Strassmeier}, M.~{{\v S}vanda}, G.~M. {Szab{\'o}}, A.~{Tkachenko},
+  D.~{Valencia}, V.~{Van Grootel}, S.~D. {Vauclair}, P.~{Ventura}, F.~W.
+  {Wagner}, N.~A. {Walton}, J.~{Weingrill}, S.~C. {Werner}, P.~J. {Wheatley},
+  and K.~{Zwintz}.
+\newblock {The PLATO 2.0 mission}.
+\newblock {\em Experimental Astronomy}, 38:249--330, November 2014.
+
+\bibitem{Rice2002}
+J.~B. {Rice}.
+\newblock {Doppler imaging of stellar surfaces - techniques and issues}.
+\newblock {\em Astronomische Nachrichten}, 323:220--235, July 2002.
+
+\bibitem{Ricker2014}
+G.~R. {Ricker}, J.~N. {Winn}, R.~{Vanderspek}, D.~W. {Latham}, G.~{\'A}.
+  {Bakos}, J.~L. {Bean}, Z.~K. {Berta-Thompson}, T.~M. {Brown}, L.~{Buchhave},
+  N.~R. {Butler}, R.~P. {Butler}, W.~J. {Chaplin}, D.~{Charbonneau},
+  J.~{Christensen-Dalsgaard}, M.~{Clampin}, D.~{Deming}, J.~{Doty}, N.~{De
+  Lee}, C.~{Dressing}, E.~W. {Dunham}, M.~{Endl}, F.~{Fressin}, J.~{Ge},
+  T.~{Henning}, M.~J. {Holman}, A.~W. {Howard}, S.~{Ida}, J.~{Jenkins},
+  G.~{Jernigan}, J.~A. {Johnson}, L.~{Kaltenegger}, N.~{Kawai}, H.~{Kjeldsen},
+  G.~{Laughlin}, A.~M. {Levine}, D.~{Lin}, J.~J. {Lissauer}, P.~{MacQueen},
+  G.~{Marcy}, P.~R. {McCullough}, T.~D. {Morton}, N.~{Narita}, M.~{Paegert},
+  E.~{Palle}, F.~{Pepe}, J.~{Pepper}, A.~{Quirrenbach}, S.~A. {Rinehart},
+  D.~{Sasselov}, B.~{Sato}, S.~{Seager}, A.~{Sozzetti}, K.~G. {Stassun},
+  P.~{Sullivan}, A.~{Szentgyorgyi}, G.~{Torres}, S.~{Udry}, and
+  J.~{Villasenor}.
+\newblock {Transiting Exoplanet Survey Satellite (TESS)}.
+\newblock In {\em Space Telescopes and Instrumentation 2014: Optical, Infrared,
+  and Millimeter Wave}, volume 9143 of {\em procspie}, page 914320, August
+  2014.
+
+\bibitem{Strassmeier2007}
+K.~G. {Strassmeier}, T.~{Carroll}, J.~B. {Rice}, and I.~S. {Savanov}.
+\newblock {Resolving stellar surface spots}.
+\newblock {\em memsai}, 78:278, 2007.
+
+\bibitem{Tinneyveloce}
+C.~G. Tinney.
+\newblock Veloce science.
+\newblock Available at
+  \url{http://newt.phys.unsw.edu.au/~cgt/Veloce/Science.html} (12/09/2017).
+
+\end{thebibliography}

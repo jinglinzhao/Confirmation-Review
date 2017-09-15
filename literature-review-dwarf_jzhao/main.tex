@@ -1,0 +1,75 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{subcaption}
+\usepackage{cleveref}
+\usepackage{siunitx}
+
+% \usepackage{natbib}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Literature Review (dwarf version)}
+\author{Jinglin Zhao}
+
+\begin{document}
+\maketitle
+
+% Literature Review
+
+% Review relevant previous studies. This will be a brief overview, not a comprehensive review of the literature like the one that you will present in your thesis. It will serve to provide a context within which your research will be situated, and whereby you can demonstrate the need for your particular research. Describe the theoretical framework you have chosen to use in your project.
+
+\section{Introduction}
+
+Exoplanet research is undoubtedly the youngest and the most rapidly developing field in astrophysics. The first discovery of exoplanet orbiting around a main-sequence star was made in 1995 \cite{Mayor1995}. Since then, the field of exoplanet discovery has been flourishing, especially in recent years. To date, 3509 exoplanets including 584 multiple planet systems have been confirmed \cite{NASAExoplanetArchive}, most of which were found using the radial velocity method and the transits method. 
+
+With the discovery of dramatically increasing number of exoplanets, the focus of interest has gradually shifted to the following two areas: (a) the search for low-mass planets, and (b) precise characterization of exoplanets \cite{Mayor2014Natur}. Both are driven by the underlying pursuit of earth-sized planets in the habitable zone. 
+
+\paragraph{The search of low-mass planets}
+Radial velocity observations measure the overall shift of spectral lines recorded in a spectrograph. 
+Precisions of \si{m.s^{-1}} and even sub-\si{m.s^{-1}} are reachable using the state-of-the-art 
+spectrographs today. These offer the possibility of detecting smaller and smaller radial velocities induced 
+by orbiting planets. However, such radial velocity shifts are also sensitive to intrinsic stellar
+variability which acts as a source of radial velocity noise. 
+Such variability can have similar amplitudes, and can thus strongly obscure, the detection 
+of low-mass exoplanets \cite{Dumusque2016}. For example, there has been ongoing debates regarding Alpha Centauri Bb, an exoplanet claimed to be detected in the closest star system to our Solar System, on whether the radial velocity oscillation was a result of an orbiting planet, or simply spurious signals from the star that mimic the presence of a planet (\cite{Dumusque2012Natur}, \cite{Rajpaul2016}, \cite{Hatzes}). Therefore, it is fundamental for today's extreme precision exoplanet searches, to extract low-amplitude planet signals in the presence of stellar noise. This is the primary motivation of this thesis. 
+
+\paragraph{Precise characterization of exoplanets}
+Radial velocity observations are crucial to (a) confirming the exoplanet candidate from transit surveys and 
+(b) understanding the planet properties. 
+The \textit{Kepler} mission has been extraordinarily successful in delivering a larger number of exoplanet candidates 
+than any other surveys. However, the faintness of Kepler targets largely limits their radial velocity follow-up. 
+Without additional information from radial velocity measurements, e.g. the planet mass, the complete 
+characterization of the exoplanet is not possible. Future space missions such as 
+NASA's \textit{Transiting Exoplanet Survey Satellite} (TESS) \cite{Ricker2014} and 
+ESA's \textit{PLAnetary Transits and Oscillations of stars} (PLATO) \cite{Rauer2014} will effectively solve this problem, 
+by delivering bright stars for radial velocity follow-up. For low-mass planets around nearby stars,
+radial velocities will be more advantageous in the sense that it can be sensitive to the Doppler wobbling of the 
+star even if the planets never transit due to the orbital plane configuration. 
+
+\section{Challenge}
+Radial velocity was the most widely used technique before the Kepler era and it remains 
+one of the most successful planet detection techniques. In a planetary system, the star follows
+a reflex motion around the system barycentre, and its velocity periodically oscillates along the 
+line-of-sight with respect to an observer. The velocity oscillation of the host star results in the 
+Doppler shift of the stellar spectrum, which can be recorded by a high-resolution spectrograph.
+
+
+The challenge of finding exoplanets with radial velocity methods lies in disentangling planetary signals from stellar jitter which has both comparable amplitudes and time-scales. It requires a detailed understanding of the impact of stellar activity, which is however limited, since our knowledge of stellar features have been largely built upon observations of our Sun. High resolution spectroscopy allows us to detect radial velocities of distant stars at high precision. However, to detect low-amplitude exoplanetary signals, we must develop tools to correct for activity-induced radial velocity signals. Individual or combined activity indexes, derived from the spectral line profile, can be used to trace the rotation period of the star and introduced as a radial velocity correction term. No indicator, to date, however, has proven universally applicable. 
+
+
+
+\bibliographystyle{plain}
+\bibliography{sample}
+
+\end{document}

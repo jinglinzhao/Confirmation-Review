@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{Donati1997}
+J.-F. {Donati}, M.~{Semel}, B.~D. {Carter}, D.~E. {Rees}, and A.~{Collier
+  Cameron}.
+\newblock {Spectropolarimetric observations of active stars}.
+\newblock {\em mnras}, 291:658, November 1997.
+
+\bibitem{Dumusque2014SOAP}
+X.~Dumusque, I.~Boisse, and N.~C. Santos.
+\newblock Soap 2.0: A tool to estimate the photometric and radial velocity
+  variations induced by stellar spots and plages.
+\newblock {\em The Astrophysical Journal}, 796(2):132, 2014.
+
+\bibitem{Kochukhov2010}
+{Kochukhov, O.}, {Makaganiuk, V.}, and {Piskunov, N.}
+\newblock Least-squares deconvolution of the stellar intensity and polarization
+  spectra.
+\newblock {\em A\&A}, 524:A5, 2010.
+
+\end{thebibliography}

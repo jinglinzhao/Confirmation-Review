@@ -1,0 +1,81 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+% \usepackage{natbib}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{subcaption}
+\usepackage{cleveref}
+\usepackage{siunitx}
+
+\setlength{\parskip}{0.4em}
+
+\title{Literature Review}
+\author{Jinglin Zhao}
+
+\begin{document}
+\maketitle
+
+% Literature Review
+
+% Review relevant previous studies. This will be a brief overview, not a comprehensive review of the literature like the one that you will present in your thesis. It will serve to provide a context within which your research will be situated, and whereby you can demonstrate the need for your particular research. Describe the theoretical framework you have chosen to use in your project.
+
+\section{Introduction -- Exoplanet Detection Using Radial Velocities}
+
+Exoplanetary research is undoubtedly the youngest and the most rapidly developing field in modern astronomy. The first discovery of an exoplanet orbiting a main-sequence star was made in 1995 \cite{Mayor1995}. Since then, the field has flourished, and especially in recent years. To date, 3509 exoplanets, including 584 multiple planet systems, have been confirmed \cite{NASAExoplanetArchive} -- most of which were found using either the radial velocity or transit methods. 
+
+The dramatically increasing number of exoplanets being discovered, has seen the focus of the field shift into   two predominant areas: (a) the search for low-mass planets, and (b) the precise characterization of exoplanets \cite{Mayor2014Natur}. Both are driven by the underlying pursuit of Earth-sized planets in the ``habitable'' zone (i.e. orbits where the incident stellar flux is similar to that received by the Earth). 
+
+\paragraph{The search of low-mass planets}
+Radial velocity planet detection was the most successful discovery technique before the Kepler era, and it remains one of the most successful planet detection techniques. In a planetary system, the star follows
+a reflex motion around the system barycentre, and its velocity periodically oscillates along the 
+line-of-sight with respect to an observer. This velocity change results in a Doppler shift of the stellar spectrum, which can be recorded using a high-resolution spectrograph.
+Precisions of \si{m.s^{-1}} and even sub-\si{m.s^{-1}} are reachable using the state-of-the-art 
+spectrographs today, and these precisions are predicted to improve in the years to come (e.g. HARPS \cite{Mayor2003Msngr}, CARMENES \cite{Quirrenbach2014SPIE}, Veloce \cite{Tinneyveloce}). This will offer the possibility of detecting smaller and smaller planets. 
+
+\paragraph{Precise characterization of exoplanets}
+Radial velocity observations are crucial for (a) confirming exoplanet candidates from transit surveys and 
+(b) understanding the planet properties. 
+The \textit{Kepler} mission has been extraordinarily successful in delivering a larger number of exoplanet candidates than any other survey. However, the faintness of Kepler targets limits their potential for radial velocity follow-up. 
+Without this additional information from radial velocity measurements (e.g. the planet mass) the complete 
+characterization of an exoplanet is not possible. Future space missions like 
+NASA's TESS \cite{Ricker2014} and ESA's PLATO \cite{Rauer2014} will effectively solve this problem, 
+by delivering transit host stars bright enough for radial velocity follow-up. 
+For low-mass planets around nearby stars,
+radial velocities have the advantage that detect planets from their Doppler wobble even if the planet does not have an orbital plane that happens to align with our line-of-sight. 
+
+
+\section{The Challenge -- Signal or Noise?}
+While stellar radial velocity shifts can be caused by gravitationally bound companions (i.e. planets), they can also be produced by intrinsic stellar variability, which acts as a source of radial velocity noise for planet detection. A range of features on the stellar surface -- most prominently dark starspots, or bright faculae and plages (the by-products of magnetic fields) -- can alter the flux balance on the stellar surface, distorting the spectral line-profile that emerges form the stellar photosphere. These line-profile distortions can generate line-profile asymmetries, which will result in apparent radial velocity shifts. These intrinsic stellar radial velocity variations (usually lumped together under the catch-all term ``stellar jitter'', or simply ``jitter'')  can have amplitudes ranging from 1\si{m.s^{-1}} (for Sun-like stars) up to tens of \si{m.s^{-1}} (for active and fast rotators; \cite{Lagrange2011}, \cite{Makarov2009}, \cite{Dumusque2016}). They will vary on multiple timescales: notably with the stellar rotation period, but also on the stellar granulation timescales of months, and the long-term magnetic cycle timescales of several years. The result can be pseudo-periodic radial velocity variations mimicking the presence of exoplanets on multiple time-scales and hindering their detection. For example, there has been ongoing debates regarding Alpha Centauri Bb, an exoplanet claimed to be detected in the star system closest to our Sun, as to whether the radial velocity oscillation observed was a result of an orbiting planet, or simply spurious signals from the star that mimic the presence of a planet (\cite{Dumusque2012Natur}, \cite{Rajpaul2016}, \cite{Hatzes}).
+
+Multiple techniques have been developed to detect the presence and impact of stellar ``jitter'' on Doppler exoplanet detection. Two techniques commonly used are to measure the full width at half-maximum (FWHM -- \cite{Queloz2009}, \cite{Hatzes2010}) of the averaged spectral line-profile, or its line bisector \cite{Perryman2011book}. One can also track the time-series behaviour of activity indicators in prominent spectral lines, such as the Ca\,II H\&K doublets, H$\alpha$, the Na D doublets. Variation in these lines is produced by emission-line reversals in the line core, which are associated with the chromospheric activity produced as a by-product of magneto-convection. Periodic variations in any of these indices (i.e. FWHM, bisector, or spectral activity indicators) will suggest that the Doppler variability at that period is more likely to be due to stellar variation, than the presence of planets. 
+
+However, all of these activity or jitter indicators only {\em correlate} with the underlying stellar variability, and it can be dangerous to correct radial velocity data, when the direct nature of the correction applied is not well understood. The fact that these indices are derived from local features of a line, or a few prominent lines, does not completely quantify the impact of stellar jitter on Doppler exoplanet detection. 
+
+\section{A Quantitative Method}
+We aim to develop a more quantitative system for modelling and correcting stellar jitter, by parametrizing the line shape of a each epoch in the spectral series being used to make Doppler planet detections. Measurements of the epoch-by-epoch deformation of the spectral line-profile will then be used to correct the observed velocities for the impact of that deformation.
+
+\paragraph{Our Simulation Tool}
+SOAP 2.0 is a software tool for modelling the line-profile deformations produced by simulated starspots, plages and the inhibition of convective blueshift (\cite{Boisse2012}, \cite{Dumusque2014}). It will deliver ``mean'' line-profiles that we can use to test our line-profile quantification metrics.
+
+\paragraph{Least Squares Deconvolution}
+Least squares deconvolution (LSD -- \cite{Donati1997}, \cite{Kochukhov2010}) extracts an averaged line-profile with substantially enhanced signal-to-noise ratio from the thousands of spectral lines present in an observed stellar spectrum. LSD has been successfully utilised for the Doppler Imaging and Zeeman Doppler Imaging of stellar surfaces (\cite{Rice2002}, \cite{Strassmeier2007}, \cite{Hackman2016}). It is used to construct a high signal-to-noise ratio line-profile from each spectroscopic observation. We would utilize this LSD profile to quantify the extent to which surface inhomogeneities can be responsible for artificial Doppler shifts in each exposure used in an exoplanet search.
+
+\paragraph{Orthonormal basis: Gauss-Hermite functions}
+The Hermite polynomials $H_n(x)$ are $n$-th order polynomials (\cite{LaPlace1820}, \cite{Chebyshev1859}, \cite{hermite1864nouveau}). They form an orthonormal basis with respect to the Gaussian weight $e^{-x^2}$. The resulting Gauss-Hermite functions are even/odd functions at even/odd orders. They provide a natural and robust way to parametrize the shape of a line-profile, and then quantify the impact of the symmetric and asymmetric terms on the resultant velocities that would be measured using that line-profile. 
+
+\bibliographystyle{plain}
+\bibliography{sample}
+
+\end{document}

@@ -1,0 +1,90 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+% \usepackage{natbib}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{subcaption}
+\usepackage{cleveref}
+\usepackage{siunitx}
+
+\setlength{\parskip}{0.3em}
+
+\title{Research Proposal}
+\author{Jinglin Zhao}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+Radial velocity observations have been widely used, and highly successful, in the search for exoplanets. They trace the spectral Doppler shift resulting from the barycentric reflex motion of a star with gravitationally bound companions (e.g. planets). However, surface inhomogeneities on a star (e.g. arising from stellar activity) can modify the shape of a spectral line-profile, and if those changes are asymmetric, they will introduce an apparent radial velocity shift. This ``noise'' variability can be on timescales and amplitudes similar to those of planetary signals, hindering the detection of exoplanets. 
+
+\section{Research Aims}
+
+This thesis will investigate how line-profile deformation caused by stellar variability can impact radial velocity detections of exoplanets. We aim to develop robust techniques to parametrize spectral line shapes (and especially line asymmetries) and their variation, so as to quantify and remove the Doppler impact of stellar activity and other surface inhomogeneities from radial velocity planet search data. 
+
+% Clearly state aims of the research project. What will you achieve in this research project? Identify the value, significance and contribution of the proposed work. The findings will need to extend knowledge in the field.
+
+% Consider some possible implications of the findings.
+
+\section{Research Plan}
+
+To start with, we will construct high signal-to-noise stellar spectral line-profiles from observed planet search data on an epoch-by-epoch basis, utilizing either cross-correlation or least squares deconvolution (LSD -- \cite{Donati1997}, \cite{Kochukhov2010}) techniques. We will also use the Spot Oscillation And Planet 2.0 (SOAP 2.0, \cite{Dumusque2014SOAP}) code to generate simulated line-profiles that include the effects of both dark spots and bright plages, and then test line-profile quantification metrics using these simulated data.
+
+We will then explore the quantification of the resulting profiles (both real and simulated) using suitable sets of orthogonal basis functions (e.g. the Gauss-Hermite series). Robust quantification of line shape variation should give us a means to correct planet search data for the component of apparent Doppler shifts produced by intrinsic stellar variability in a manner never previously explored. 
+
+Once suitable metrics are identified, they will be tested using aditional sets of archival data (e.g. from the substantial on-line archive of HARPS spectra), to see whether these metrics can be used to ``clean up'' the Doppler time series data for active and inactive stars, and so search for lower amplitude planets currently hidden by the noise of stellar variability.
+
+% Provide a careful plan of the proposed research to demonstrate that the project is feasible, can be completed within the required time, and will provide useful evidence to achieve the research aims.
+
+% The plan may include the following sections:
+
+% General methodology
+
+% Outline and justify the proposed methodology. Discuss the rationale for your selection of research paradigm, research techniques, materials, equipment, testing procedures, data collection, proposed analyses, etc.
+
+% Research Questions
+
+% Present the research questions that the proposed study will investigate and answer.
+
+% Hypotheses
+
+% State the hypotheses that will be tested (if relevant).
+
+% Stages in the Research
+
+% Provide a detailed explanation of the stages in the research and the major tasks to be undertaken within each stage of your work. Show that you have considered the best methods to achieve the aims.
+
+% Scope and Problems
+
+% Identify the scope of the proposed research- and an appreciation of possible problems that may occur along the way.
+
+% Resources Required
+
+% Identify the resources needed to conduct the research and their availability.
+
+% Time Lines
+
+% Establish that the research can be completed in time.
+
+% References
+
+% Provide a list of all references that you have cited in the proposal.
+
+\bibliographystyle{plain}
+\bibliography{sample}
+
+\end{document}
